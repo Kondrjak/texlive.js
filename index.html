@@ -43,14 +43,7 @@
   \maketitle
   \TeX{}live.js is a compiler for the \TeX{}
   typesetting program created using Mozilla's Emscripten
-  Compiler. It offers programmable desktop
-  publishing features and extensive facilities for
-  automating most aspects of typesetting and desktop
-  publishing, including numbering and cross-referencing,
-  tables and figures, page layout, bibliographies, and
-  much more. It supports \LaTeX{} which was originally written 
-  in 1984 by Leslie Lamport and has become the dominant method for
-  using \TeX;
+  Compiler. It supports \LaTeX{}.
  
   % This is a comment, not shown in final output.
   % The following shows typesetting power of LaTeX:
@@ -58,7 +51,6 @@
     E_0 &= mc^2                              \\
     E &= \frac{mc^2}{\sqrt{1-\frac{v^2}{c^2}}}
   \end{align}
-
 
   \TeX{}live.js even supports images! This photo was taken by Laura Poitras/Praxis Films
 
@@ -98,12 +90,6 @@
 
     <h2>More Information</h2>
     <p>Checkout the <a href="https://github.com/manuels/texlive.js/wiki">wiki page</a></p>
-
-    <h2>Related Projects</h2>
-    <ul>
-      <li><a href="https://github.com/mozilla/pdf.js">pdf.js</a>: a PDF reader in Javascript by Mozilla</li>
-      <li><a href="https://github.com/kripken/emscripten">emscripten</a>: An LLVM-to-JavaScript Compiler used to create texlive.js</li>
-    </ul>
 
     <script>
       var visibilityChanger = function(element_id) {
@@ -169,7 +155,5 @@
       var pdftex_preload = new PDFTeX("pdftex-worker.js");
       pdftex_preload = undefined;
     </script>
-
-    <script src="https://togetherjs.com/togetherjs-min.js"></script>
   </body>
 </html>
